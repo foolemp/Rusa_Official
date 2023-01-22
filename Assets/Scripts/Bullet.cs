@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour
             //break;
 
             case "Enemy":
+            Destroy(gameObject);
             other.gameObject.GetComponent<Enemy>().TakeDamage(1.0f);
             break;
         }
