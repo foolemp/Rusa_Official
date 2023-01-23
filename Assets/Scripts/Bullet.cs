@@ -20,6 +20,10 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             other.gameObject.GetComponent<Enemy>().TakeDamage(1.0f);
             break;
+
+            case "Player":
+            Physics2D.IgnoreCollision(other.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            break;
         }
     }
 
