@@ -42,9 +42,9 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GameObject.FindGameObjectWithTag("Enemy").transform.position);
-        Vector3 enemyPosition = GameObject.FindGameObjectWithTag("Enemy").transform.position;
-        Vector3 enemyPosition2 = enemyPosition + new Vector3(1f, 1f, 1f);
+        //Debug.Log(GameObject.FindGameObjectWithTag("Enemy").transform.position);
+        //Vector3 enemyPosition = GameObject.FindGameObjectWithTag("Enemy").transform.position;
+        //Vector3 enemyPosition2 = enemyPosition + new Vector3(1f, 1f, 1f);
         //Debug.Log(enemy.transform.position);
     }
 }

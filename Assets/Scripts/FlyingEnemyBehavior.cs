@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FlyingEnemyBehavior : MonoBehaviour
 {
-    
     Rigidbody2D rb;
+    [SerializeField]
+    private float distanceToChase;
     [SerializeField]
     Transform target;
     [SerializeField]
-    [Range(0, 5)]
+    [Range(0, 10)]
     float moveSpeed = 0.5f;
     bool facingLeft;
+    private bool chase = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +25,14 @@ public class FlyingEnemyBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Chase();
+        if(chase == false){
+            if (Vector3.Distance(transform.position, target.position) < distanceToChase){
+            chase = true;
+            }
+        }
+        if (chase == true){
+            Chase();
+        }
     }
 
 
@@ -57,7 +67,8 @@ public class FlyingEnemyBehavior : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("Game Over");
-            GameManager.ChangeScene(GameManager.GameOverScene);
+            //GameManager.ChangeScene(GameManager.GameOverScene);
+            SceneManager.LoadScene(2);
         }
 
     }

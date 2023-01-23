@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -4462,9 +4462,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      main_lev_build_140: -2113856801
-      main_lev_build_77: 729686124
+      main_lev_build_27: 402658352
       main_lev_build_187: 1014941093
+      main_lev_build_1: 1045418756
       main_lev_build_98: -1648699777
       main_lev_build_201: -1200608734
       main_lev_build_31: -1868193530
@@ -4537,9 +4537,9 @@ TextureImporter:
       main_lev_build_47: -1412820451
       main_lev_build_160: 1990298876
       main_lev_build_96: -1686545422
-      main_lev_build_143: -1132116652
-      main_lev_build_206: -296217467
       main_lev_build_162: 372808051
+      main_lev_build_206: -296217467
+      main_lev_build_143: -1132116652
       main_lev_build_153: -2120614572
       main_lev_build_198: 1165263136
       main_lev_build_124: -1742638734
@@ -4575,9 +4575,9 @@ TextureImporter:
       main_lev_build_170: 1745909172
       main_lev_build_161: 950652352
       main_lev_build_131: -1938749177
+      main_lev_build_203: -536154284
       main_lev_build_83: -1255831325
       main_lev_build_88: -1510192643
-      main_lev_build_203: -536154284
       main_lev_build_147: 1490163694
       main_lev_build_180: -1202524691
       main_lev_build_87: 1664229459
@@ -4601,10 +4601,10 @@ TextureImporter:
       main_lev_build_30: -847359085
       main_lev_build_182: 604631580
       main_lev_build_69: 301702795
-      main_lev_build_103: 2091377734
-      main_lev_build_53: -303809658
-      main_lev_build_168: 2093607311
       main_lev_build_169: 85276341
+      main_lev_build_53: -303809658
+      main_lev_build_103: 2091377734
+      main_lev_build_168: 2093607311
       main_lev_build_193: 569773994
       main_lev_build_63: -1755970268
       main_lev_build_23: 1188138531
@@ -4627,8 +4627,8 @@ TextureImporter:
       main_lev_build_179: 386390
       main_lev_build_42: -2051430427
       main_lev_build_71: -1669783925
-      main_lev_build_78: -421718072
       main_lev_build_189: -1580400260
+      main_lev_build_78: -421718072
       main_lev_build_43: -2002336553
       main_lev_build_199: 475092701
       main_lev_build_73: 351315074
@@ -4667,8 +4667,8 @@ TextureImporter:
       main_lev_build_18: -303600021
       main_lev_build_194: -144159253
       main_lev_build_10: -1753879821
-      main_lev_build_1: 1045418756
-      main_lev_build_27: 402658352
+      main_lev_build_77: 729686124
+      main_lev_build_140: -2113856801
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
